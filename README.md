@@ -2,7 +2,7 @@
 
 This web application is designed to showcase featured speakers for an event. It provides an interactive carousel where users can navigate through speaker cards and view detailed profiles for each speaker.
 
-## Deployed link -
+## Deployed link - https://wondrous-mandazi-81dd53.netlify.app/
 
 
  **Demo**
