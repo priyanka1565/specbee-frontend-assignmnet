@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured Speakers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="event-speakers">
+    <h1>View our Featured Speakers for the Event</h1>
+    <p>Speakers are core contributors and industry thought leaders working at <a href="#">companies</a> that push for
+      innovation.</p>
+
+    <!-- Speaker Detail Section -->
+    <div class="speaker-detail hidden">
+
+      <div class="detail-content">
+
+        <div class="image-container">
+          <img id="speaker-image" src="" alt="Speaker Image">
+        </div>
+
+        <div class="speaker-info">
+          <h2 id="speaker-name">John Doe</h2>
+          <p id="speaker-role">Chief Marketing Officer</p>
+          <span id="speaker-company">Specbee</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="description">
+          <p class="additional-info">
+            Monotonectally synergize business communities rather than client-centric convergence. Assertively unleash
+            cross-platform best practices.
+          </p>
+        </div>
+      </div>
+
+      <button class="btn-close">&times;</button>
+    </div>
+
+    <div class="carousel-wrapper">
+      <button class="carousel-btn previous-btn">&#10094;</button>
+
+      <div class="carousel">
+        <div class="card" data-name="John Doe" data-role="Chief Marketing Officer" data-company="Acme Corp"
+          data-img="./images/avatar1.jpeg">
+          <img src="./images/avatar1.jpeg" alt="Speaker 1">
+          <h2>John Doe</h2>
+          <p>Chief Marketing Officer</p>
+          <span>Acme Corp</span>
+        </div>
+
+        <div class="card" data-name="Jane Smith" data-role="Chief Engagement Officer" data-company="Acquia"
+          data-img="./images/avatar2.jpeg">
+          <img src="./images/avatar2.jpeg" alt="Speaker 2">
+          <h2>Jane Smith</h2>
+          <p>Chief Engagement Officer</p>
+          <span>Acquia</span>
+        </div>
+
+        <div class="card" data-name="Alice Johnson" data-role="Chief Technical Developer" data-company="Pantheon"
+          data-img="./images/avatar3.jpeg">
+          <img src="./images/avatar3.jpeg" alt="Speaker 3">
+          <h2>Alice Johnson</h2>
+          <p>Chief Technical Developer</p>
+          <span>Pantheon</span>
+        </div>
+
+        <div class="card" data-name="Bob Lee" data-role="Chief Marketing Officer" data-company="Specbee"
+          data-img="./images/avatar4.jpeg">
+          <img src="./images/avatar4.jpeg" alt="Speaker 4">
+          <h2>Bob Lee</h2>
+          <p>Chief Marketing Officer</p>
+          <span>Specbee</span>
+        </div>
+      </div>
+
+      <button class="carousel-btn next-btn">&#10095;</button>
+    </div>
+
+    <button class="program-btn">See the Program</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
