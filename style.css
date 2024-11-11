@@ -80,17 +80,17 @@ body {
 
 .carousel-btn {
   position: absolute;
-  width: 40px;
-  background-color: white;
-  color: black;
+  width: 36px;
+  height: 36px;
+  background-color: #ffff;
   border: none;
-  padding: 10px;
+  padding: px;
   font-size: 20px;
   cursor: pointer;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  border: 1px solid black;
+  border: 1px solid rgba(218, 218, 218, 1);
   border-radius: 100%;
 }
 
@@ -143,13 +143,15 @@ body {
 }
 
 .speaker-info {
-  text-align: start;
+  text-align: center;
   width: 40%;
   margin-left: 20px;
 }
 
 .description .additional-info {
   text-align: start;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .btn-close {
